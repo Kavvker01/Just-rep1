@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Задание №2</title>
+    <link rel="stylesheet" href="styles2.css"> <!--в стиле проблем нет-->
+</head>
+<body>
+<a href="task_main.html">Вернуться к списку заданий</a>
+    <p class="red">Это красный текст</p> <!--p class стоит зеленый а должен быть красный-->
+    <p class="red">Это тоже красный текст</p> <!--Класс задан верно, но стиль лишний (класс красный, а стиль зеленый)-->
+<p class="bold">Это полужирный текст</p> <!--Текст в курсиве, а не полужирный, меняем класс с italic на bold-->
+<p class="bold">Это тоже полужирный текст</p> <!--Текст полужирный и в курсиве, просто убираем курсив-->
+<p>Все элементы следующего списка (включая подсписок) имеют разные цвета и ни один из них не чёрный:</p>
+<ul>
+    <li class="green">Элемент списка</li> <!--Черный, а должен быть иного цвета, меняем color на class-->
+        <ol>
+            <li class="red">Первый элемент подсписка</li> <!--Меняем color на class-->
+            <li style="color:red">Второй элемент подсписка</li>
+        </ol>
+    <li style="color:green">Ещё один элемент списка</li>
+</ul>
+<p>
+    <span class="xxsmall">В</span> 
+    <span font-size="xsmall">этом</span>
+    <span class="medium">абзаце</b> <!--Меняем b на span после чего слово будет не полужирным а другого размера-->
+    <span class="xlarge">все</span>
+    <span class="large">слова</span> <!--добавляем class в который будет вписан large-->
+    <span class="small">разного</span> <!--вместо font должен быть class, а также в значении нужно убрать size=-->
+    <span class="xxlarge">размера</span> <!--вместо font должен быть class-->
+</p>
+</body>
+</html>

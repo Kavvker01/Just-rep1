@@ -1,0 +1,36 @@
+body {
+    font-size: 24px;
+}
+.green { /*выбран синий вместо зеленого*/
+    color: green;
+}
+.red { /*Выбран зеленый вместо красного*/
+    color: red;
+} 
+.blue { /*стоит красный цвет а не синий*/
+    color: blue;
+}
+li.green { /*вместо зеленого стоит красный*/
+    color: green;
+}
+li.red { /*вместо красного стоит синий*/
+    color: red;
+}
+li.blue { /*вместо синего стоит зеленый */
+    color: blue;
+}
+ul ol li.red { /*вместо красного стоит сизый*/
+    color: red;
+}
+ul ol li.green { /*вместо зеленого стоит оранжевый*/
+    color: green;
+}
+ul ol li.blue { /*вместо синего стоит маджента*/
+    color: blue;
+}
+p.italic { /*вместо -weight должен быть -style*/
+    font-style: italic;
+}
+p.bold { /*вместо -style должен быть -weight*/
+    font-weight: bold;
+}
